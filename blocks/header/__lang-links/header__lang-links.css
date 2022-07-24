@@ -1,0 +1,13 @@
+.header__lang-links {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__lang-links {
+    justify-content: flex-end;
+    column-gap: 18px;
+  }
+}
