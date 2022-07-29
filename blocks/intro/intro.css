@@ -3,6 +3,7 @@
   max-width: 984px;
   padding-top: 92px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
